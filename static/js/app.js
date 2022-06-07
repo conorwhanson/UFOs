@@ -20,10 +20,10 @@ function buildTable(data) {
         Object.values(dataRow).forEach((val) => {
             let cell = row.append("td");
             cell.text(val);
-        }
-    );
-})};
-
+            }
+        );
+    });
+}
 // Use D3 to begin formatting the table with filters
 function handleClick() {
 
@@ -39,11 +39,10 @@ function handleClick() {
 
         // apply filter to original data using date filter created above.
         filteredData = filteredData.filter(row => row.datetime === date);
-    };
-
+    }
     // Rebuild the table using the user-defined filters. If no date was entered, original data will be displayed.
-    buildTable(tableData);
-};
+    buildTable(filteredData);
+}
 
 // Use D3 to listen for user click
 d3.selectAll("#filter-btn").on("click", handleClick);
