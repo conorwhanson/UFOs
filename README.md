@@ -17,5 +17,5 @@ Finally, a user could filter by locations (states, city, or country) to hone in 
 ![new_years_ca](https://github.com/conorwhanson/UFOs/blob/main/resources/new_years_ca.png)
 
 ## Summary
-
+While this webpage and user-filtered table are helpful for UFO enthusiasts, one downside is, besides the search boxes, the webpage is not very interactive. One way to remedy that would be to create an interactive map which would provide a simple and powerful visual of UFO sightings based on geography. Another way to further enhance the webpage would be to gather more UFO sightings data. The dataset is quite small (111 entires), so more data would help build out a more robust story regarding UFO sighting characteristics and their respective frequencies in the dataset. Finally, a way to filter sighting descriptions would be helpful as many of them share qualities that would be beneficial for analysis.
 
