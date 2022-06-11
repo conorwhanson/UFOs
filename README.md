@@ -1,4 +1,4 @@
-# UFOs
+# UFO Sightings Web Visualization with JavaScript, D3, and BootStrap
 
 ## Project Overview
 The purpose of this project was to build a webpage on which is displayed a table of UFO sighting data. The user can then input search filters to filter the table based on a specified number of parameters.
