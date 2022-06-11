@@ -25,7 +25,7 @@ function buildTable(data) {
     });
 }
 // Use D3 to begin formatting the table with filters
-function handleClick() {
+function handleChange() {
 
     // .select will match the very first element that matches selector string in parenthesis; .property
     // with selector string of "value" will grab the value in the "#datetime" HTML id tag and store it
@@ -45,7 +45,7 @@ function handleClick() {
 }
 
 // Use D3 to listen for user click
-d3.selectAll("#filter-btn").on("click", handleClick);
+d3.selectAll("#datetime").on("change", handleChange);
 
 // Build the table when the page loads
 buildTable(tableData);
