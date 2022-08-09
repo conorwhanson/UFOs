@@ -44,12 +44,12 @@ function buildTable(data) {
 //   }
   
   // 7. Use this function to filter the table when data is entered.
-  function filterTable() {
     let date = d3.select("#datetime").property("value");
     let inputCity = d3.select("#city").property("value");
     let inputState = d3.select("#state").property("value");
     let inputCountry = d3.select("#country").property("value");
-    let inputShape = d3.select("#shape").property("value");
+    let inputShape = d3.select("#shape").property("value"); function filterTable() {
+ 
 
     let filteredData = tableData;
 
